@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		985AE65A286EF656009F6FF1 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 985AE658286EF656009F6FF1 /* Main.xcdatamodeld */; };
+		985AE65C286F0AEF009F6FF1 /* sudoku_data in Resources */ = {isa = PBXBuildFile; fileRef = 985AE65B286F0AEF009F6FF1 /* sudoku_data */; };
 		98B8E37B2849FB37000D6EA3 /* Sudoku_KingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8E37A2849FB37000D6EA3 /* Sudoku_KingApp.swift */; };
 		98B8E37D2849FB37000D6EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8E37C2849FB37000D6EA3 /* ContentView.swift */; };
 		98B8E37F2849FB39000D6EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B8E37E2849FB39000D6EA3 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		985AE659286EF656009F6FF1 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		985AE65B286F0AEF009F6FF1 /* sudoku_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = sudoku_data; sourceTree = "<group>"; };
 		98B8E3772849FB37000D6EA3 /* Sudoku King.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudoku King.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8E37A2849FB37000D6EA3 /* Sudoku_KingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_KingApp.swift; sourceTree = "<group>"; };
 		98B8E37C2849FB37000D6EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +57,9 @@
 			children = (
 				98B8E37A2849FB37000D6EA3 /* Sudoku_KingApp.swift */,
 				98B8E37C2849FB37000D6EA3 /* ContentView.swift */,
+				985AE658286EF656009F6FF1 /* Main.xcdatamodeld */,
 				98B8E37E2849FB39000D6EA3 /* Assets.xcassets */,
+				985AE65B286F0AEF009F6FF1 /* sudoku_data */,
 				98B8E3802849FB39000D6EA3 /* Preview Content */,
 			);
 			path = "Sudoku King";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985AE65C286F0AEF009F6FF1 /* sudoku_data in Resources */,
 				98B8E3822849FB39000D6EA3 /* Preview Assets.xcassets in Resources */,
 				98B8E37F2849FB39000D6EA3 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985AE65A286EF656009F6FF1 /* Main.xcdatamodeld in Sources */,
 				98B8E37D2849FB37000D6EA3 /* ContentView.swift in Sources */,
 				98B8E37B2849FB37000D6EA3 /* Sudoku_KingApp.swift in Sources */,
 			);
@@ -273,8 +281,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +311,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +349,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		985AE658286EF656009F6FF1 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				985AE659286EF656009F6FF1 /* Main.xcdatamodel */,
+			);
+			currentVersion = 985AE659286EF656009F6FF1 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 98B8E36F2849FB37000D6EA3 /* Project object */;
 }
